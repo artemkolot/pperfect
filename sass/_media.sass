@@ -21,14 +21,16 @@
 		padding: $gutter*2 0
 		p
 			line-height: 26px
-	.reasons
-		padding: $gutter*1.4
-		h3
-			margin-bottom: $gutter/2
+	
+	.reasons h3
+		margin-bottom: $gutter/2
 
+	.start-info,.detail,.reasons, footer
+		padding-top: $gutter*2
+		padding-bottom: $gutter*2
 
-			
-
+	.buy-section
+		padding-top: $gutter - 10px
 
 // ≥768px
 +media-breakpoint-down(sm)
@@ -37,6 +39,9 @@
 	h2.like-title
 		font-size: 34px !important
 		line-height: 45px !important
+	.buy-section
+		text-align: center
+
 // ≥576px
 +media-breakpoint-down(xs)
 
