@@ -262,6 +262,7 @@ footer
 	color: #f6f7fa
 	p
 		font-size: $text-size2
+		margin-bottom: $gutter*2
 	span
 		display: inline-block
 		color: #57697f
@@ -281,26 +282,24 @@ footer
 				height: 58px
 				background-color: #f6f7fa
 				padding: 0 $gutter
-				border-top-left-radius: 5px
-				border-bottom-left-radius: 5px
+				-webkit-border-radius: 0
+				+border-left-radius(5px)
 				border: none
 				float: left
 		button
+			padding: 0
 			height: 58px
 			width: 15%
 			background-color: #82ca9c
 			outline: none !important
 			color: #fff
 			font-size: 30px
+			+border-right-radius(5px)
 			border: none
 			cursor: pointer
+			display: inline-block
+			text-align: center
 	
-
-
-	
-
-
-
 
 
 /* TEST SECTION */
