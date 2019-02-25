@@ -110,7 +110,7 @@ header
 		padding: 0 15px
 		+transition(all .5s ease)
 	img
-		+transition(all .2s ease)
+		+transition(all .6s ease)
 		opacity: 0
 		visibility: hidden
 		position: absolute
@@ -127,27 +127,39 @@ header
 			padding: $gutter+20px $gutter+12px 
 			color: #fff
 			height: 276px
+			+transition(.4s ease)
+			&:hover
+				font-size: 15px
 			&:nth-child(1)
 				background: #f5989d
+				&:hover
+					background: $green
 			&:nth-child(2)
 				background: #615f7d
+				&:hover
+					background: $green
 			&:nth-child(3)
 				background: url('../img/image-box1.jpg') no-repeat right center
 				background-size: cover
 			&:nth-child(5)
 				background: $green
+				&:hover
+					background: #615f7d
 		.skill-block-long
 			background: url('../img/image-box2.jpg') no-repeat left top
 			background-size: cover
 			padding: $gutter
 			color: #fff
+			+transition(.4s ease)
+			&:hover
+				font-size: 15px
 		h2
 			font-size: 30px
 			font-weight: 300
 			margin-bottom: $gutter
 		p
 			font-size: $text-size2
-			
+	
 
 
 //Details
@@ -231,6 +243,9 @@ header
 		padding: 10px 0
 		border-radius: 4px
 		width: 151px
+		+transition(.3s ease)
+		&:hover
+			transform: scale(1.1)
 
 	.buy-section-platform-icon
 		margin-top: 20px
@@ -334,7 +349,7 @@ footer
 				bottom: 2%
 				opacity: .8
 			.ips:nth-child(3)
-				left: 24%
+				left: 16%
 				bottom: 3%
 				opacity: .7
 

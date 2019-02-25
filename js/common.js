@@ -1,5 +1,4 @@
 $(function() {
-
-	// Custom JS
-
+	jQuery.scrollSpeed(100, 700);
 });
+
